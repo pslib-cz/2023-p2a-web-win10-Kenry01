@@ -1,0 +1,72 @@
+.start-panel {
+    display: grid;
+    grid-template-columns: 50px 170px 1fr;
+    }
+    .start-panel .start-panel-icons {
+        grid-column: 1;
+        grid-row: 3;
+      }
+   
+   
+    .start-panelgrid {
+        display: grid;
+        grid-template-columns: repeat(auto);
+    }
+    .apps--office {
+         grid-row: 2;   
+        grid-column: 1;
+    }
+    
+    .apps--web {
+        
+            grid-row: 2;
+            grid-column: 1;
+          
+    
+    }
+    .apps--other {
+        
+            grid-column: 2;
+            grid-row: span 2;
+          
+    }
+    .apps__grid {
+        
+            grid-row: 1;
+            grid-column: 1;
+            display: grid;
+            grid-template-columns: repeat(6, 60px);
+            grid-template-rows: repeat(3, 60px);
+          
+    }
+    .app--g2x2 {
+        grid-row: span 2;
+        grid-column: span 2;
+    }
+    .app--g2x1 {
+        grid-row: span 2;
+
+    }
+    .app--g1x2 {
+        
+    }
+    .app--off-3 {
+        
+    }
+    .app--off-4 {
+        
+    }
+    .app--off-5 {
+
+    }
+       
+    .app--in-3 {
+       
+    }
+    .app--fun-2 {
+       
+    }
+    .app--fun-3 {
+       
+    }
+    
